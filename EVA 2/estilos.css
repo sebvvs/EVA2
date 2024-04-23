@@ -1,0 +1,267 @@
+body {
+    background-color: #ffdcfc;
+    font-family: 'monotype corsiva';
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    padding: 5px;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2%; 
+    margin-top: 1px;
+}
+
+@media screen and (min-width: 480px) {
+     nav ul li {margin-left: 5%;}
+     .Cuadro {margin-right: 10%; font-size: 1em;}
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ff7cf4
+}
+
+.imagenInicial {
+    text-align: center;
+}
+
+.imagenInicial img{
+    max-width: 100%;
+    height: auto; 
+}
+
+/*SOBRE MI*/
+
+#SobreMi {
+    padding: 1px;
+    background-color: #ffffff;
+    display: flex; 
+    width: 100%;
+    border: none;
+}
+
+.Cuadro {
+    padding: 2%; 
+    margin: 2% 5.5%; 
+    max-width: 60%; 
+    max-height: 50%;
+    background-color: #e8dfd8;
+    margin-left: auto;
+    font-family: 'Baskerville Old Face';
+}
+
+.Cuadro2 {
+    padding: 20px; 
+    margin: 2% 5.5%; 
+    max-width: 75%;
+    max-height: 65%;
+    background-color: #e8dfd8;
+    margin-left: auto;
+    font-family: 'Baskerville Old Face';
+    font-size: 28px;
+}
+
+.cont {
+    flex: 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.flex-container {
+    font-family: 'BellT';
+    font-size: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    color: #ff7cf4;
+}
+
+/*MIS ESPECIALIDADES*/
+
+#MisEspecialidades {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen2 {
+    margin: 0 auto;
+}
+
+.imagen2 img {
+    max-width: 60%;
+    max-height: 50%;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cont1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.cont1 p {
+    max-width: 100%;
+}
+
+.texto, .texto1 {
+    text-align: left;
+    padding: 2%;
+    margin: 2%; 
+    width: 92%; 
+    max-width: 100%;
+    background-color: #e8dfd8;
+    font-family: 'Baskerville Old Face';
+    font-size: 50%;
+    border-bottom: 1px solid #ccc;
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+
+/*PRODUCTOS*/
+
+#MisProductos {
+    text-align: center;
+}
+
+table {
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #ffffff;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/*CONTACTO*/
+
+#Contacto {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Contacto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #fde8fc;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7cf4;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #f39aff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    width: 40px;
+    height: 40px;
+}
